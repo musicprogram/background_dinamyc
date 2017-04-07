@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @fondo.nombre %>
+</p>
+
+<div style="<%= show_bg %>"></div>
+
+<%= link_to 'Edit', edit_fondo_path(@fondo) %> |
+<%= link_to 'Back', fondos_path %>
